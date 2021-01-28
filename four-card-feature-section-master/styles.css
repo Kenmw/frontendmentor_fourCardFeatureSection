@@ -1,0 +1,112 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(229, 6%, 66%);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  padding: .5%;
+}
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+p {
+  padding: 2%;
+}
+
+.hero {
+  text-align: center;
+  margin: 3% 10% 0;
+}
+
+.hero p {
+  margin: 0 28%;
+}
+/* cards */
+.card {
+  width: 350px;
+  min-height: 250px;
+  margin: 0 0 0 auto;
+  border-radius: 7px;
+}
+.icon {
+  position: absolute;
+  left: 75%;
+  top: 60%;
+}
+.card-header{
+    padding: 0.1rem 5.25rem;
+}
+/* calculator card */
+.calculator {
+  margin: auto 4%;
+  right: 15%;
+}
+.calculator .card-header {
+  background-color: hsl(212, 86%, 64%);
+}
+/* Supervisor card */
+.Supervisor {
+  margin: auto 20%;
+  left: 15%;
+}
+.Supervisor .card-header {
+  background-color: hsl(180, 62%, 55%);
+}
+
+/* karma card */
+.karma .card-header {
+  background-color: hsl(34, 97%, 64%);
+}
+/* team-builder card */
+.team-builder .card-header {
+  background-color: hsl(0, 78%, 62%);
+}
+/* misc cards */
+.team-builder, .karma {
+  margin: 7% auto;
+}
+.calculator, .Supervisor {
+  top: 25%;
+}
+/* footer */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+/* mobile version */
+@media only screen and (min-width:280px) and (max-width:1368px) {
+  .hero{
+    text-align: center;
+    margin: 10% 7px;
+  }
+  .hero p{
+    margin: auto;
+    padding: 7% 7% 0;
+  }
+  h1,h2,h3{
+    font-size: 20px;
+    padding: 2%;
+
+  }
+  .Supervisor,.calculator{
+    top:0;
+    right:0;
+    left:0;
+    margin: auto;
+  }
+}
